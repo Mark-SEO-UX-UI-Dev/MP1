@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEOntists</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- navBar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            src="img/SEOntists_Logo_No_background.png"
+            alt="SEOntist Logo"
+            class="img-fluid"
+            width="40px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="">Technical SEO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">On-Page SEO</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="file:///C:/Users/Markx's%20PC/Desktop/bootcamp/html/burgers_order.html"
+                >Off-Page SEO</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="file:///C:/Users/Markx's%20PC/Desktop/bootcamp/html/burgers_order.html"
+                >Local SEO</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="file:///C:/Users/Markx's%20PC/Desktop/bootcamp/html/burgers_order.html"
+                >Case Studies</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="file:///C:/Users/Markx's%20PC/Desktop/bootcamp/html/burgers_order.html"
+                >Reviews</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="file:///C:/Users/Markx's%20PC/Desktop/bootcamp/html/burgers_order.html"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+          <button class="btn d-flex" type="submit" id="navbar-button">
+            Get a Free Proposal
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <div class="container" style="width: 100%; height: 100vh" id="hero-section">
+      <div class="row">
+        <div class="col-lg-8 col-xs-8 hero-text">
+          <h1 class="display-1 fw-bold pb-1">
+            Hero Title: <br />Best SEO Company
+          </h1>
+          <p>
+            Hero Description. Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Porro velit debitis laborum, sapiente molestiae.
+          </p>
+          <p class="hero-cta col-lg-5 text-center">
+            GET A FREE STRATEGY REVIEW
+          </p>
+        </div>
+        <div class="col-lg-4 col-xs-4 banner-image">
+          <img
+            src="img/Digital_world.png"
+            alt="a digital world"
+            width="100%"
+            class="rotate img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Container -->
+    <div class="container">
+      <div class="row">
+        <h2 class="display-5 fw-bold">Our Services</h2>
+        <!-- Carousel - service 1 -->
+        <div class="row mt-5 service1">
+          <div class="col-lg-5 col-xs-12">
+            <div
+              id="carouselExampleCaptions"
+              class="carousel slide"
+              data-bs-ride="carousel"
+              data-bs-interval="3500"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="0"
+                  class="active"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="2"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="img/download.jpg"
+                    class="d-block w-100"
+                    alt="sizzling burger"
+                    class="img-fluid"
+                    style="
+                      top: 0;
+                      left: 0;
+                      min-width: 100%;
+                      height: 300px;
+                      max-height: 300px;
+                      width: auto;
+                    "
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h4>Submitting on Search Engines</h4>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/download.jpg"
+                    class="d-block w-100"
+                    alt="Fried Chicken"
+                    class="img-fluid"
+                    style="
+                      top: 0;
+                      left: 0;
+                      min-width: 100%;
+                      height: 300px;
+                      max-height: 300px;
+                      width: auto;
+                    "
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h4>Web Page Errors</h4>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/download.jpg"
+                    class="d-block w-100"
+                    alt="spaghetti"
+                    class="img-fluid"
+                    style="
+                      top: 0;
+                      left: 0;
+                      min-width: 100%;
+                      height: 300px;
+                      max-height: 300px;
+                      width: auto;
+                    "
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h4>Web Vitals</h4>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <!-- Carousel - service 1 -->
+          <!-- Carousel -Service 1 Description -->
+          <div class="col-lg-7 col-xs-12">
+            <h3>Technical SEO</h3>
+            <p>
+              Technical SEO Description / Summary. Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Commodi repellendus unde soluta quas
+              voluptate, veritatis repellat hic consequatur similique mollitia
+              harum explicabo delectus earum facere neque id. Dolores, dolorum
+              non.
+            </p>
+            <p class="service-cta col-lg-3 text-center">Learn More!</p>
+          </div>
+        </div>
+        <!-- Carousel -Service 1 Description -->
+        <!-- Carousel -Service 2 Description -->
+        <div class="row mt-5 service2">
+          <div class="col-lg-7 col-xs-12">
+            <h3>On-Page SEO</h3>
+            <p>
+              On-Page SEO Description / Summary. Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Commodi repellendus unde soluta quas
+              voluptate, veritatis repellat hic consequatur similique mollitia
+              harum explicabo delectus earum facere neque id. Dolores, dolorum
+              non.
+            </p>
+            <p class="service-cta col-lg-3 text-center">Learn More!</p>
+          </div>
+          <!-- Carousel -Service 2 Description -->
+          <!-- Carousel - service 2 -->
+          <div class="col-lg-5 col-xs-12">
+            <div
+              id="carouselExampleCaptions"
+              class="carousel slide"
+              data-bs-ride="carousel"
+              data-bs-interval="3500"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="0"
+                  class="active"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="2"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="img/download.jpg"
+                    class="d-block w-100"
+                    alt="sizzling burger"
+                    class="img-fluid"
+                    style="
+                      top: 0;
+                      left: 0;
+                      min-width: 100%;
+                      height: 300px;
+                      max-height: 300px;
+                      width: auto;
+                    "
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h4>optimizing Title tag</h4>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/download.jpg"
+                    class="d-block w-100"
+                    alt="Fried Chicken"
+                    class="img-fluid"
+                    style="
+                      top: 0;
+                      left: 0;
+                      min-width: 100%;
+                      height: 300px;
+                      max-height: 300px;
+                      width: auto;
+                    "
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h4>keyword Research</h4>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/download.jpg"
+                    class="d-block w-100"
+                    alt="spaghetti"
+                    class="img-fluid"
+                    style="
+                      top: 0;
+                      left: 0;
+                      min-width: 100%;
+                      height: 300px;
+                      max-height: 300px;
+                      width: auto;
+                    "
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h4>Optimizing Content</h4>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel - service 2 -->
+        <!-- Carousel - service 3 -->
+        <div class="row mt-5 service3">
+          <div class="col-lg-5 col-xs-12">
+            <div
+              id="carouselExampleCaptions"
+              class="carousel slide"
+              data-bs-ride="carousel"
+              data-bs-interval="3500"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="0"
+                  class="active"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="2"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="img/download.jpg"
+                    class="d-block w-100"
+                    alt="sizzling burger"
+                    class="img-fluid"
+                    style="
+                      top: 0;
+                      left: 0;
+                      min-width: 100%;
+                      height: 300px;
+                      max-height: 300px;
+                      width: auto;
+                    "
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h4>Prospecting</h4>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/download.jpg"
+                    class="d-block w-100"
+                    alt="Fried Chicken"
+                    class="img-fluid"
+                    style="
+                      top: 0;
+                      left: 0;
+                      min-width: 100%;
+                      height: 300px;
+                      max-height: 300px;
+                      width: auto;
+                    "
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h4>Backlinks building</h4>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/download.jpg"
+                    class="d-block w-100"
+                    alt="spaghetti"
+                    class="img-fluid"
+                    style="
+                      top: 0;
+                      left: 0;
+                      min-width: 100%;
+                      height: 300px;
+                      max-height: 300px;
+                      width: auto;
+                    "
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h4>and so on</h4>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <!-- Carousel - service 3 -->
+          <!-- Carousel -Service 3 Description -->
+          <div class="col-lg-7 col-xs-12">
+            <h3>Off-page SEO</h3>
+            <p>
+              Off-Page SEO Description / Summary. Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Commodi repellendus unde soluta quas
+              voluptate, veritatis repellat hic consequatur similique mollitia
+              harum explicabo delectus earum facere neque id. Dolores, dolorum
+              non.
+            </p>
+            <p class="service-cta col-lg-3 text-center">Learn More!</p>
+          </div>
+        </div>
+        <!-- Carousel -Service 3 Description -->
+        <!-- Carousel -Service 4 Description -->
+        <div class="row mt-5 service2">
+          <div class="col-lg-7 col-xs-12">
+            <h3>Local SEO</h3>
+            <p>
+              Local SEO Description / Summary. Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Commodi repellendus unde soluta quas
+              voluptate, veritatis repellat hic consequatur similique mollitia
+              harum explicabo delectus earum facere neque id. Dolores, dolorum
+              non.
+            </p>
+            <p class="service-cta col-lg-3 text-center">Learn More!</p>
+          </div>
+          <!-- Carousel -Service 4 Description -->
+          <!-- Carousel - service 4 -->
+          <div class="col-lg-5 col-xs-12">
+            <div
+              id="carouselExampleCaptions"
+              class="carousel slide"
+              data-bs-ride="carousel"
+              data-bs-interval="3500"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="0"
+                  class="active"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="2"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="img/download.jpg"
+                    class="d-block w-100"
+                    alt="sizzling burger"
+                    class="img-fluid"
+                    style="
+                      top: 0;
+                      left: 0;
+                      min-width: 100%;
+                      height: 300px;
+                      max-height: 300px;
+                      width: auto;
+                    "
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h4>Optimizing GBP</h4>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/download.jpg"
+                    class="d-block w-100"
+                    alt="Fried Chicken"
+                    class="img-fluid"
+                    style="
+                      top: 0;
+                      left: 0;
+                      min-width: 100%;
+                      height: 300px;
+                      max-height: 300px;
+                      width: auto;
+                    "
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h4>Review Management</h4>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/download.jpg"
+                    class="d-block w-100"
+                    alt="spaghetti"
+                    class="img-fluid"
+                    style="
+                      top: 0;
+                      left: 0;
+                      min-width: 100%;
+                      height: 300px;
+                      max-height: 300px;
+                      width: auto;
+                    "
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h4>Optimizing Content for Local Intent</h4>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel - service 4 -->
+      </div>
+    </div>
+    <!-- About Container -->
+    <div class="container my-5">
+      <div class="row">
+        <h2 class="display-5 fw-bold">About</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui minima,
+          ullam amet distinctio labore excepturi voluptates!
+        </p>
+      </div>
+    </div>
+    <!-- Reviews Container -->
+    <div class="container">
+      <div class="row">
+        <h2 class="display-5 fw-bold">Reviews</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui minima,
+          ullam amet distinctio labore excepturi voluptates!
+        </p>
+      </div>
+    </div>
+    <!-- Trusted By Container -->
+    <div class="container trusted my-5">
+      <div class="row">
+        <h2 class="display-5 fw-bold">Certified / Trusted by:</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui minima,
+          ullam amet distinctio labore excepturi voluptates!
+        </p>
+        <!-- BrightLocal Academy - Course Completed - Create Relevant Reports -->
+        <div class="col-lg-3 col-xs-12">
+          <embed
+            type="image/jpg"
+            src="https://lwfiles.mycourse.app/brightlocalacademy-public/64daba10834db79c43409221bdb10c18.png"
+            width="200px"
+            height="200px"
+          />
+        </div>
+        <!-- BrightLocal Academy - Course Completed - Create Relevant Reports -->
+        <!-- SEMrush -->
+        <div class="col-lg-3 col-xs-12">
+          <embed
+            type="image/jpg"
+            src="img/Semrush academy-certificate-badge.png"
+            width="200px"
+            height="200px"
+            class="img-fluid"
+          />
+        </div>
+        <!-- SEMrush -->
+        <!-- Microsoft -->
+        <div class="col-lg-3 col-xs-12">
+          <embed
+            type="image/jpg"
+            src="img/marketing-with-purpose.png"
+            width="200px"
+            height="200px"
+            class="img-fluid"
+          />
+        </div>
+        <!-- Microsoft -->
+        <!-- KodeGo -->
+        <div class="col-lg-3 col-xs-12">
+          <embed
+            type="image/jpg"
+            src="img/kodego-logo.png"
+            width="200px"
+            height="200px"
+            class="img-fluid"
+          />
+        </div>
+        <!-- KodeGo -->
+      </div>
+    </div>
+    <!-- FAQs -->
+    <div class="container my-5">
+      <div class="row my-5">
+        <h2 class="display-5 fw-bold">Frequently Asked Questions</h2>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+              >
+                What are the differences of SEO vs PPC?
+              </button>
+            </h3>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                eveniet, nostrum impedit enim nam dolore architecto asperiores
+                officia delectus eos ipsa consequuntur nihil laborum accusamus
+                cum esse fuga quam ipsum!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+              >
+                Should I go for SEO or PPC?
+              </button>
+            </h3>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Tempora porro deleniti eos quos ducimus pariatur doloribus ea
+                quisquam, libero ipsum! A non necessitatibus id sunt incidunt
+                modi aliquid, accusamus et!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+              >
+                What SEO can do for you?
+              </button>
+            </h3>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                totam sed ex optio officia adipisci. Eos expedita illo est sed
+                explicabo, voluptatibus hic placeat quaerat officia nihil
+                accusantium repellat iure.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+              >
+                Should I go for SEO or PPC?
+              </button>
+            </h3>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Nostrum expedita eveniet cum neque qui aspernatur odio quis fuga
+                quisquam animi, magni commodi optio, quibusdam libero a
+                excepturi modi. Accusamus, enim!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="container-fluid mt-5">
+      <div class="row">
+        <footer>
+          <div class="container pt-5 footer-div">
+            <div class="row">
+              <div class="col-lg-1 col-xs-12 footer-brand pe-0">
+                <a href="index.html"
+                  ><img
+                    src="img/SEOntists_Logo_No_background.png"
+                    alt="SEOntists Logo"
+                    class="img-fluid footer-brand-logo"
+                /></a>
+              </div>
+              <div class="col-lg-2 col-xs-12 footer-brand ps-0">
+                <h5 class="footer-brand-name">
+                  <a href="index.html" class="footer-bname">SEOntists</a>
+                </h5>
+              </div>
+              <div class="col-lg-3 col-xs-12">
+                <h5>Need more?</h5>
+                <div>
+                  <ul id="footer-links">
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Case Studies</li>
+                    <li>Reviews</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-xs-12">
+                <div>
+                  <h5>Resources</h5>
+                  <ul id="footer-links">
+                    <li>eBook</li>
+                    <li>Blog</li>
+                    <li>SEO Guides</li>
+                    <li>Video Tutorials</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-xs-12">
+                <h5>Subscribe</h5>
+                <form>
+                  <div class="form-group text-start">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" class="form-control" />
+                  </div>
+                  <input
+                    type="submit"
+                    class="btn btn-primary mt-2"
+                    id="submit-button"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
