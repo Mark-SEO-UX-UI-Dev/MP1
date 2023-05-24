@@ -56,6 +56,18 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: #060235;
+}
+
+a:active {
+  color: palegoldenrod;
+}
+
 .hero-cta {
   background-color: rgb(55, 157, 241);
   color: white;
