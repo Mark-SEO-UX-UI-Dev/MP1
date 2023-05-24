@@ -56,6 +56,10 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
+a.nav-link:link {
+  color: grey;
+}
+
 a:link {
   color: white;
 }
