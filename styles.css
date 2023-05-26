@@ -92,6 +92,7 @@ a:active {
     transform: rotate(360deg);
   }
 }
+
 .rotate {
   animation-name: spinning;
   animation-duration: 10s;
@@ -139,11 +140,15 @@ h4 {
   color: black;
 }
 
+span {
+  font-size: 21px;
+}
+
 .cta {
   background-color: rgb(108, 177, 233);
   color: white;
-  font-size: 21px;
-  padding: 5px;
+  font-size: 19px;
+  padding: 3px;
 }
 
 .cta:hover {
